@@ -1,3 +1,5 @@
 execute pathogen#infect()
-set background=dark
 colorscheme solarized
+set background=dark
+set hlsearch
+set list
