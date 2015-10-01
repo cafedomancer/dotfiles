@@ -1,0 +1,7 @@
+[core]
+	excludesfile = /Users/cafedomancer/.gitignore
+[hub]
+	protocol = https
+[user]
+	email = cafedomancer@gmail.com
+	name = cafedomancer
