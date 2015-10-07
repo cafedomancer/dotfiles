@@ -1,7 +1,7 @@
 alias ga='git add'
 alias gb='git branch'
 alias gc='git commit'
-alias gco='git checout'
+alias gco='git checkout'
 alias gd='git diff'
 alias gl='git pull'
 alias glg='git log'
