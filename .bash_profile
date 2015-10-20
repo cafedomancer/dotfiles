@@ -8,6 +8,8 @@ alias glg='git log'
 alias gp='git push'
 alias gst='git status'
 
+alias grep='grep --color=auto'
+
 alias ls="ls -FG"
 alias la="ls -AFG"
 
