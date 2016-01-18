@@ -1,3 +1,5 @@
+abbr- a be bundle exec
+
 abbr -a ga git add
 abbr -a gb git branch
 abbr -a gc git commit
