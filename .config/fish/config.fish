@@ -2,7 +2,7 @@ abbr -a be bundle exec
 
 abbr -a ga git add
 abbr -a gb git branch
-abbr -a gc git commit
+abbr -a gc git commit -v
 abbr -a gco git checkout
 abbr -a gd git diff
 abbr -a gl git pull
