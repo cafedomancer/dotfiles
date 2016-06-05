@@ -4,4 +4,5 @@ set background=dark
 set cursorline
 set hlsearch
 set list
+set mouse=a
 set number
