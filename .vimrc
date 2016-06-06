@@ -1,6 +1,7 @@
 execute pathogen#infect()
 colorscheme solarized
 set background=dark
+set clipboard=unnamed
 set cursorline
 set hlsearch
 set list
