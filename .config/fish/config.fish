@@ -7,6 +7,7 @@ abbr -a gl git pull
 abbr -a glg git log
 abbr -a gp git push
 abbr -a gst git status
+abbr -a t todo.sh
 
 alias grep "grep --color=auto"
 alias la "ls -AFG"
