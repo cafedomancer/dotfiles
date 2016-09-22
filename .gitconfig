@@ -1,4 +1,5 @@
 [core]
+	editor = vim
 	excludesfile = /Users/cafedomancer/.gitignore_global
 [hub]
 	protocol = https
