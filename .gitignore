@@ -4,7 +4,7 @@
 !/.gitignore
 !/.gitignore_global
 !/.gitmodules
+!/.nodenv/default-packages
 !/.rbenv/default-gems
 !/.vim
 !/.vimrc
-!/.nodenv/default-packages
