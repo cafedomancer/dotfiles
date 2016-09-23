@@ -4,7 +4,6 @@
 !/.gitignore
 !/.gitignore_global
 !/.gitmodules
-!/.karabiner.d/configuration/karabiner.json
 !/.rbenv/default-gems
 !/.vim
 !/.vimrc
