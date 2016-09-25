@@ -1,5 +1,6 @@
 *.DS_Store
 .byebug_history
 .netrwhist
+.ruby-version
 [._]*.s[a-w][a-z]
 [._]s[a-w][a-z]
