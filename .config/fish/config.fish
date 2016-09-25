@@ -10,10 +10,10 @@ abbr -a gp git push
 abbr -a gst git status
 abbr -a t todo.sh
 
-alias grep "grep --color=auto"
-alias la "ls -AFG"
-alias ls "ls -FG"
-alias tree "tree -CF"
+alias la 'ls -AFG'
+alias ll 'ls -FGhl'
+alias ls 'ls -FG'
+alias tree 'tree -CF'
 
 eval (hub alias -s)
 status --is-interactive; and . (nodenv init -|psub)
