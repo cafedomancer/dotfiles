@@ -40,6 +40,9 @@
 [submodule ".vim/pack/plugins/start/vim-rails"]
 	path = .vim/pack/plugins/start/vim-rails
 	url = https://github.com/tpope/vim-rails.git
+[submodule ".vim/pack/plugins/start/vim-sensible"]
+	path = .vim/pack/plugins/start/vim-sensible
+	url = https://github.com/tpope/vim-sensible.git
 [submodule ".vim/pack/plugins/start/vim-sleuth"]
 	path = .vim/pack/plugins/start/vim-sleuth
 	url = https://github.com/tpope/vim-sleuth.git
