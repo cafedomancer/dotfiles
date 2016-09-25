@@ -1,3 +1,5 @@
+[commit]
+	gpgSign = true
 [core]
 	editor = vim
 	excludesfile = /Users/cafedomancer/.gitignore_global
