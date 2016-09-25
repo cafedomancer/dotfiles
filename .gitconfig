@@ -2,10 +2,10 @@
 	gpgSign = true
 [core]
 	editor = vim
-	excludesfile = /Users/cafedomancer/.gitignore_global
+	excludesFile = /Users/cafedomancer/.gitignore_global
 [hub]
 	protocol = https
 [user]
 	email = cafedomancer@gmail.com
 	name = cafedomancer
-	signingkey = B5D27F650A61DFC7
+	signingKey = B5D27F650A61DFC7
