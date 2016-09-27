@@ -40,6 +40,9 @@
 [submodule ".vim/pack/plugins/start/vim-fugitive"]
 	path = .vim/pack/plugins/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
+[submodule ".vim/pack/plugins/start/vim-jsx"]
+	path = .vim/pack/plugins/start/vim-jsx
+	url = https://github.com/mxw/vim-jsx.git
 [submodule ".vim/pack/plugins/start/vim-rails"]
 	path = .vim/pack/plugins/start/vim-rails
 	url = https://github.com/tpope/vim-rails.git
