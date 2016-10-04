@@ -3,6 +3,8 @@
 [core]
 	editor = vim
 	excludesFile = /Users/cafedomancer/.gitignore_global
+[fetch]
+	prune = true
 [hub]
 	protocol = https
 [user]
