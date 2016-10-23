@@ -1,63 +1,21 @@
-[submodule ".vim/pack/plugins/start/ctrlp.vim"]
-	path = .vim/pack/plugins/start/ctrlp.vim
-	url = https://github.com/kien/ctrlp.vim.git
-[submodule ".vim/pack/plugins/start/supertab"]
-	path = .vim/pack/plugins/start/supertab
-	url = https://github.com/ervandew/supertab.git
-[submodule ".vim/pack/plugins/start/tabular"]
-	path = .vim/pack/plugins/start/tabular
-	url = https://github.com/godlygeek/tabular.git
-[submodule ".vim/pack/plugins/start/vim"]
-	path = .vim/pack/plugins/start/vim
-	url = https://github.com/dracula/vim.git
 [submodule ".vim/pack/plugins/start/vim-airline"]
 	path = .vim/pack/plugins/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
 [submodule ".vim/pack/plugins/start/vim-auto-save"]
 	path = .vim/pack/plugins/start/vim-auto-save
 	url = https://github.com/907th/vim-auto-save.git
-[submodule ".vim/pack/plugins/start/vim-bundler"]
-	path = .vim/pack/plugins/start/vim-bundler
-	url = https://github.com/tpope/vim-bundler.git
 [submodule ".vim/pack/plugins/start/vim-commentary"]
 	path = .vim/pack/plugins/start/vim-commentary
 	url = https://github.com/tpope/vim-commentary.git
-[submodule ".vim/pack/plugins/start/vim-dracula-theme"]
-	path = .vim/pack/plugins/start/vim-dracula-theme
+[submodule ".vim/pack/plugins/start/vim-dracula"]
+	path = .vim/pack/plugins/start/vim-dracula
 	url = https://github.com/dracula/vim.git
-[submodule ".vim/pack/plugins/start/vim-easymotion"]
-	path = .vim/pack/plugins/start/vim-easymotion
-	url = https://github.com/easymotion/vim-easymotion.git
-[submodule ".vim/pack/plugins/start/vim-endwise"]
-	path = .vim/pack/plugins/start/vim-endwise
-	url = https://github.com/tpope/vim-endwise.git
-[submodule ".vim/pack/plugins/start/vim-eunuch"]
-	path = .vim/pack/plugins/start/vim-eunuch
-	url = https://github.com/tpope/vim-eunuch.git
-[submodule ".vim/pack/plugins/start/vim-fish"]
-	path = .vim/pack/plugins/start/vim-fish
-	url = https://github.com/dag/vim-fish.git
 [submodule ".vim/pack/plugins/start/vim-fugitive"]
 	path = .vim/pack/plugins/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
-[submodule ".vim/pack/plugins/start/vim-jsx"]
-	path = .vim/pack/plugins/start/vim-jsx
-	url = https://github.com/mxw/vim-jsx.git
-[submodule ".vim/pack/plugins/start/vim-rails"]
-	path = .vim/pack/plugins/start/vim-rails
-	url = https://github.com/tpope/vim-rails.git
 [submodule ".vim/pack/plugins/start/vim-sensible"]
 	path = .vim/pack/plugins/start/vim-sensible
 	url = https://github.com/tpope/vim-sensible.git
 [submodule ".vim/pack/plugins/start/vim-sleuth"]
 	path = .vim/pack/plugins/start/vim-sleuth
 	url = https://github.com/tpope/vim-sleuth.git
-[submodule ".vim/pack/plugins/start/vim-speeddating"]
-	path = .vim/pack/plugins/start/vim-speeddating
-	url = https://github.com/tpope/vim-speeddating.git
-[submodule ".vim/pack/plugins/start/vim-surround"]
-	path = .vim/pack/plugins/start/vim-surround
-	url = https://github.com/tpope/vim-surround.git
-[submodule ".vim/pack/plugins/start/vim-javascript"]
-	path = .vim/pack/plugins/start/vim-javascript
-	url = https://github.com/pangloss/vim-javascript.git
