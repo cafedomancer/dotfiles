@@ -8,7 +8,6 @@ abbr -a gl git pull
 abbr -a glg git log
 abbr -a gp git push
 abbr -a gst git status
-abbr -a t todo.sh
 
 alias la 'ls -AFG'
 alias ll 'ls -FGhl'
