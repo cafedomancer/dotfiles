@@ -1,13 +1,11 @@
 [commit]
-	gpgSign = true
+	gpgsign = true
 [core]
 	editor = vim
-	excludesFile = /Users/cafedomancer/.gitignore_global
-[fetch]
-	prune = true
+	excludesfile = /Users/cafedomancer/.gitignore_global
 [hub]
 	protocol = https
 [user]
 	email = cafedomancer@gmail.com
-	name = cafedomancer
-	signingKey = B5D27F650A61DFC7
+	name = Shohei Umemoto
+	signingkey = B5D27F650A61DFC7
