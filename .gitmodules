@@ -19,3 +19,6 @@
 [submodule ".vim/pack/plugins/start/vim-sleuth"]
 	path = .vim/pack/plugins/start/vim-sleuth
 	url = https://github.com/tpope/vim-sleuth.git
+[submodule ".vim/pack/plugins/start/vim-supertab"]
+	path = .vim/pack/plugins/start/vim-supertab
+	url = https://github.com/ervandew/supertab.git
