@@ -3,6 +3,8 @@
 [core]
 	editor = vim
 	excludesfile = /Users/cafedomancer/.gitignore_global
+[credential]
+	helper = osxkeychain
 [hub]
 	protocol = https
 [user]
