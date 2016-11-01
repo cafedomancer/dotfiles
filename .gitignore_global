@@ -1,6 +1,7 @@
 *.DS_Store
 .byebug_history
 .netrwhist
+.node-version
 .ruby-version
 [._]*.s[a-w][a-z]
 [._]s[a-w][a-z]
