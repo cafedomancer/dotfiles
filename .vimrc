@@ -4,6 +4,7 @@ set breakindent
 set cursorline
 set hlsearch
 set list
+set number
 
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#tab_nr_type = 2
