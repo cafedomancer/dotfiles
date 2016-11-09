@@ -22,3 +22,6 @@
 [submodule ".vim/pack/plugins/start/vim-supertab"]
 	path = .vim/pack/plugins/start/vim-supertab
 	url = https://github.com/ervandew/supertab.git
+[submodule ".vim/pack/plugins/start/vim-fish"]
+	path = .vim/pack/plugins/start/vim-fish
+	url = https://github.com/dag/vim-fish.git
