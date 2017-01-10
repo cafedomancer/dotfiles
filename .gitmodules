@@ -16,6 +16,9 @@
 [submodule ".vim/pack/plugins/start/vim-eunuch"]
 	path = .vim/pack/plugins/start/vim-eunuch
 	url = https://github.com/tpope/vim-eunuch.git
+[submodule ".vim/pack/plugins/start/vim-fish"]
+	path = .vim/pack/plugins/start/vim-fish
+	url = https://github.com/dag/vim-fish.git
 [submodule ".vim/pack/plugins/start/vim-fugitive"]
 	path = .vim/pack/plugins/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
@@ -28,6 +31,3 @@
 [submodule ".vim/pack/plugins/start/vim-supertab"]
 	path = .vim/pack/plugins/start/vim-supertab
 	url = https://github.com/ervandew/supertab.git
-[submodule ".vim/pack/plugins/start/vim-fish"]
-	path = .vim/pack/plugins/start/vim-fish
-	url = https://github.com/dag/vim-fish.git
