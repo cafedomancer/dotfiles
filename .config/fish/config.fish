@@ -15,27 +15,5 @@ alias ls 'ls -FG'
 alias tree 'tree -CF'
 
 eval (hub alias -s)
-status --is-interactive; and . (nodenv init -|psub)
-status --is-interactive; and . (rbenv init -|psub)
-
-# rearrange the following configurations later
-
-function peco_select_repo
-  if test (count $argv) = 0
-    set peco_flags --layout=top-down
-  else
-    set peco_flags --layout=top-down --query "$argv"
-  end
-
-  ghq list --full-path | peco $peco_flags | read repo
-
-  if [ $repo ]
-    cd $repo
-  else
-    cd ''
-  end
-end
-
-function fish_user_key_bindings
-  bind \cr 'peco_select_repo'
-end
+status --is-interactive; and source (nodenv init - | psub)
+status --is-interactive; and source (rbenv init - | psub)
