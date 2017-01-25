@@ -19,3 +19,7 @@ status --is-interactive; and source (nodenv init - | psub)
 status --is-interactive; and source (rbenv init - | psub)
 
 set -x PATH $PATH (yarn global bin)
+
+function fish_user_key_bindings
+  bind \cc 'commandline ""'
+end
