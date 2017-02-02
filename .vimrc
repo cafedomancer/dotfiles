@@ -3,6 +3,7 @@ colorscheme dracula
 set breakindent
 set cursorline
 set hlsearch
+set lazyredraw
 set list
 set number
 
