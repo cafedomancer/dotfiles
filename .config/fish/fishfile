@@ -3,4 +3,6 @@ fisherman/fzf
 fisherman/get
 fisherman/getopts
 fisherman/last_job_id
+cafedomancer/fish-nodenv
+fisherman/rbenv
 fisherman/z
