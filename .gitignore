@@ -1,1 +1,12 @@
 *
+
+!*/
+
+!/.gitconfig
+!/.gitconfig_global
+!/.gitignore
+!/.gitmodules
+!/.vimrc
+
+!/.config/**
+!/.vim/**
