@@ -1,9 +1,1 @@
 *
-!/.config/fish/config.fish
-!/.config/fish/functions/prompt.fish
-!/.gitconfig
-!/.gitconfig_global
-!/.gitignore
-!/.gitmodules
-!/.vim/**
-!/.vimrc
