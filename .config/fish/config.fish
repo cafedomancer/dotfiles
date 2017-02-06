@@ -15,5 +15,5 @@ alias ls 'ls -FG'
 alias tree 'tree -CF'
 
 eval (hub alias -s)
-
-set -x PATH $PATH (yarn global bin)
+status --is-interactive; and source (nodenv init - | psub)
+status --is-interactive; and source (rbenv init - | psub)
