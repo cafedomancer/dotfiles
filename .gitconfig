@@ -5,6 +5,8 @@
 	excludesfile = ~/.gitignore_global
 [credential]
 	helper = osxkeychain
+[fetch]
+	prune = true
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	process = git-lfs filter-process
@@ -12,6 +14,8 @@
 	smudge = git-lfs smudge -- %f
 [hub]
 	protocol = https
+[pull]
+	rebase = true
 [user]
 	email = cafedomancer@gmail.com
 	name = Shohei Umemoto
