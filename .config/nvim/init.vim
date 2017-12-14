@@ -1,21 +1,25 @@
 call plug#begin('~/.local/share/nvim/plugged')
-Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
+Plug '/usr/local/opt/fzf'
+Plug 'airblade/vim-rooter'
+Plug 'common-nighthawk/vim-rspec'
+Plug 'dag/vim-fish', { 'for': 'fish' }
 Plug 'dracula/vim'
-" Plug 'scrooloose/nerdcommenter'
-" Plug 'scrooloose/nerdtree'
+Plug 'ervandew/supertab'
+Plug 'junegunn/fzf.vim'
+Plug 'slim-template/vim-slim', { 'for': 'slim' }
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-endwise'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-haml', { 'for': 'haml' }
+Plug 'tpope/vim-markdown'
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-sleuth'
+Plug 'tpope/vim-surround'
 Plug 'vim-scripts/vim-auto-save' " replace it with autocmd later
-
-Plug 'dag/vim-fish', { 'for': 'fish' }
-Plug 'slim-template/vim-slim', { 'for': 'slim' }
-Plug 'tpope/vim-haml', { 'for': 'haml' }
+" Plug 'w0rp/ale'
 call plug#end()
-
-let mapleader      = ' '
-let maplocalleader = ' '
 
 colorscheme dracula
 
@@ -27,24 +31,35 @@ set list
 set number
 set smartcase
 
-set mouse=a
+set nobackup
+set noswapfile
+" set nowrap
 
-let g:auto_save = 1
-let g:auto_save_silent = 1
-
-" nnoremap <silent> <Leader><Leader> :Files<CR>
-nnoremap <silent> <expr> <Leader><Leader> (expand('%') =~ 'NERD_tree' ? "\<c-w>\<c-w>" : '').":Files\<cr>"
+" fzf.vim
+nnoremap <silent> <Leader><Leader> :Files<CR>
 nnoremap <silent> <Leader>C        :Colors<CR>
 nnoremap <silent> <Leader><Enter>  :Buffers<CR>
 nnoremap <silent> <Leader>ag       :Ag <C-R><C-W><CR>
 nnoremap <silent> <Leader>AG       :Ag <C-R><C-A><CR>
 xnoremap <silent> <Leader>ag       y:Ag <C-R>"<CR>
 nnoremap <silent> <Leader>`        :Marks<CR>
-" nnoremap <silent> q: :History:<CR>
-" nnoremap <silent> q/ :History/<CR>
+nnoremap <silent> q: :History:<CR>
+nnoremap <silent> q/ :History/<CR>
 
-" autocmd vimenter * NERDTree
-" autocmd StdinReadPre * let s:std_in=1
-" autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-" autocmd StdinReadPre * let s:std_in=1
-" autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | endif
+" rspec.vim
+" nnoremap <Leader>t :call RunCurrentSpecFile()<CR>
+" nnoremap <Leader>s :call RunNearestSpec()<CR>
+" nnoremap <Leader>l :call RunLastSpec()<CR>
+" nnoremap <Leader>a :call RunAllSpecs()<CR>
+
+" supertab
+" let g:SuperTabDefaultCompletionType = "<c-n>"
+" let g:SuperTabDefaultCompletionType = "context"
+
+" vim-auto-save
+let g:auto_save = 1
+let g:auto_save_silent = 1
+let g:auto_save_events = ["InsertLeave"]
+
+" vim-rooter
+let g:rooter_silent_chdir = 1
