@@ -4,7 +4,7 @@
 	editor = nvim
 	excludesfile = ~/.gitignore_global
 [credential]
-	helper = osxkeychain
+	helper = cache
 [fetch]
 	prune = true
 [filter "lfs"]
