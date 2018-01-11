@@ -1,6 +1,6 @@
 highlight Comment     cterm=NONE ctermfg=8    ctermbg=NONE
 
-highlight Constant    cterm=NONE ctermfg=215  ctermbg=NONE
+highlight Constant    cterm=NONE ctermfg=NONE ctermbg=NONE
 highlight String      cterm=NONE ctermfg=2    ctermbg=NONE
 " highlight Character
 " highlight Number
@@ -10,7 +10,7 @@ highlight String      cterm=NONE ctermfg=2    ctermbg=NONE
 highlight Identifier  cterm=NONE ctermfg=1    ctermbg=NONE
 highlight Function    cterm=NONE ctermfg=4    ctermbg=NONE
 
-highlight Statement   cterm=NONE ctermfg=5    ctermbg=NONE
+highlight Statement   cterm=NONE ctermfg=4    ctermbg=NONE
 " highlight Conditional
 " highlight Repeat
 " highlight Label
@@ -18,7 +18,7 @@ highlight Statement   cterm=NONE ctermfg=5    ctermbg=NONE
 " highlight Keyword
 " highlight Exception
 
-highlight PreProc     cterm=NONE ctermfg=130  ctermbg=NONE
+highlight PreProc     cterm=NONE ctermfg=5    ctermbg=NONE
 " highlight Include
 " highlight Define
 " highlight Macro
@@ -29,7 +29,7 @@ highlight Type        cterm=NONE ctermfg=3    ctermbg=NONE
 " highlight Structure
 " highlight Typedef
 
-highlight Special     cterm=NONE ctermfg=116  ctermbg=NONE
+highlight Special     cterm=NONE ctermfg=6    ctermbg=NONE
 " highlight SpecialChar
 " highlight Tag
 " highlight Delimiter
@@ -95,3 +95,8 @@ highlight Visual       cterm=NONE           ctermfg=NONE ctermbg=237
 " highlight WarningMsg
 " highlight Whitespace
 " highlight WildMenu
+
+highlight link rubyRegexp          Special
+highlight link rubyRegexpDelimiter Special
+highlight link rubyStringDelimiter String
+highlight link rubySymbol          String
