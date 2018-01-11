@@ -21,7 +21,7 @@ Plug 'vim-scripts/vim-auto-save' " replace it with autocmd later
 " Plug 'w0rp/ale'
 call plug#end()
 
-colorscheme dracula
+colorscheme base16
 
 set breakindent
 set cursorline
@@ -33,7 +33,6 @@ set smartcase
 
 set nobackup
 set noswapfile
-" set nowrap
 
 " fzf.vim
 nnoremap <silent> <Leader><Leader> :Files<CR>
