@@ -9,6 +9,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'slim-template/vim-slim', { 'for': 'slim' }
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-endwise'
+Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-haml', { 'for': 'haml' }
 Plug 'tpope/vim-markdown'
