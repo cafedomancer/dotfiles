@@ -1,3 +1,4 @@
+set -gx EDITOR nvim
 set -gx LANG en_US.UTF-8
 
 abbr -a be bundle exec
@@ -11,6 +12,8 @@ abbr -a gl git pull
 abbr -a glg git log
 abbr -a gp git push
 abbr -a gst git status
+abbr -a md mkdir
+abbr -a rd rmdir
 abbr -a vim nvim
 
 alias la 'ls -AFG'
