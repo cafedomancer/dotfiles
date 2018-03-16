@@ -32,8 +32,6 @@ set list
 set number
 set smartcase
 
-set tabstop=4
-
 set nobackup
 set nofoldenable
 set noswapfile
