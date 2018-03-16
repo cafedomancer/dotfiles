@@ -51,10 +51,10 @@ highlight Todo        cterm=NONE ctermfg=12   ctermbg=10
 " highlight CursorColumn
 " highlight CursorLine
 " highlight Directory
-" highlight DiffAdd
-" highlight DiffChange
-" highlight DiffDelete
-" highlight DiffText
+highlight DiffAdd      cterm=NONE           ctermfg=0    ctermbg=2
+highlight DiffChange   cterm=NONE           ctermfg=0    ctermbg=5
+highlight DiffDelete   cterm=NONE           ctermfg=0    ctermbg=1
+highlight DiffText     cterm=NONE           ctermfg=0    ctermbg=5
 " highlight EndOfBuffer
 " highlight TermCursor
 " highlight TermCursorNC
