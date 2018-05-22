@@ -20,6 +20,3 @@ alias la 'ls -AFG'
 alias ll 'ls -FGhl'
 alias ls 'ls -FG'
 alias tree 'tree -CF'
-
-status --is-interactive; and source (nodenv init - | psub)
-status --is-interactive; and source (rbenv init - | psub)
