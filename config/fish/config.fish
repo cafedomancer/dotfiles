@@ -1,6 +1,3 @@
-set -gx EDITOR nvim
-set -gx LANG en_US.UTF-8
-
 abbr -a be bundle exec
 abbr -a bi bundle install
 abbr -a ga git add
