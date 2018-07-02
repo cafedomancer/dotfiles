@@ -2,7 +2,6 @@
 	gpgsign = true
 [core]
 	editor = nvim
-	excludesfile = ~/.gitignore_global
 [credential]
 	helper = osxkeychain
 [fetch]
