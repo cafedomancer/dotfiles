@@ -32,6 +32,7 @@ cask "dropbox"
 cask "firefox"
 
 mas "1Password 7", id: 1333542190
+mas "Ka-Block!", id: 1335413823
 mas "Keynote", id: 409183694
 mas "Magnet", id: 441258766
 mas "Numbers", id: 409203825
