@@ -31,6 +31,7 @@ cask "chromium"
 cask "docker"
 cask "dropbox"
 cask "firefox"
+cask "zoomus"
 
 mas "1Password 7", id: 1333542190
 mas "Ka-Block!", id: 1335413823
