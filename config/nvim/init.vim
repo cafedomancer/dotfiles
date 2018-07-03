@@ -15,7 +15,6 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-sleuth'
 Plug 'tpope/vim-surround'
-Plug 'vim-scripts/vim-auto-save'
 Plug 'w0rp/ale'
 call plug#end()
 
@@ -25,9 +24,11 @@ let mapleader      = ' '
 let maplocalleader = ' '
 
 set iskeyword+=-
+set lazyredraw
 set list
 set noswapfile
 set number
+set signcolumn=yes
 set splitbelow
 set splitright
 set updatetime=100
@@ -58,12 +59,6 @@ nnoremap <silent> q/ :History/<CR>
 " junegunn/vim-easy-align
 xmap ga <Plug>(EasyAlign)
 nmap ga <Plug>(EasyAlign)
-
-" vim-scripts/vim-auto-save
-let g:auto_save                = 1
-let g:auto_save_no_updatetime  = 1
-let g:auto_save_in_insert_mode = 0
-let g:auto_save_silent         = 1
 
 " w0rp/ale
 let g:ale_set_highlights = 0
