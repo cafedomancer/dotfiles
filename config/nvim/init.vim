@@ -9,6 +9,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-eunuch'
+Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rails'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-repeat'
@@ -23,12 +24,17 @@ colorscheme base16-default-dark
 let mapleader      = ' '
 let maplocalleader = ' '
 
+set breakindent
+set ignorecase
 set iskeyword+=-
 set lazyredraw
+set linebreak
 set list
 set noswapfile
 set number
+set showbreak=>\ 
 set signcolumn=yes
+set smartcase
 set splitbelow
 set splitright
 set updatetime=100
@@ -36,6 +42,7 @@ set wildmode=longest,full
 
 noremap n nzz
 noremap N Nzz
+
 nnoremap <C-s> :w<CR>
 inoremap <C-s> <ESC>:w<CR>
 nnoremap <C-q> :q<CR>
@@ -61,4 +68,6 @@ xmap ga <Plug>(EasyAlign)
 nmap ga <Plug>(EasyAlign)
 
 " w0rp/ale
+let g:ale_fixers         = {'javascript': ['prettier']}
+let g:ale_fix_on_save    = 1
 let g:ale_set_highlights = 0

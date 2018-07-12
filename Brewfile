@@ -4,6 +4,7 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "thoughtbot/formulae"
 
+brew "ctags", args: ["force-bottle"]
 brew "fd", args: ["force-bottle"]
 brew "fish", args: ["force-bottle"]
 brew "fzf", args: ["force-bottle"]
@@ -14,8 +15,10 @@ brew "gnupg", args: ["force-bottle"]
 brew "graphviz", args: ["force-bottle"]
 brew "heroku", args: ["force-bottle"]
 brew "hub", args: ["force-bottle"]
+brew "imagemagick", args: ["force-bottle"]
 brew "mas", args: ["force-bottle"]
 brew "neovim", args: ["force-bottle"]
+brew "nkf", args: ["force-bottle"]
 brew "nodenv", args: ["force-bottle"]
 brew "phantomjs", args: ["force-bottle"]
 brew "postgresql", args: ["force-bottle"]
