@@ -34,6 +34,7 @@ cask "chromium"
 cask "docker"
 cask "dropbox"
 cask "firefox"
+cask "haptic-touch-bar"
 cask "zoomus"
 
 mas "1Password 7", id: 1333542190
