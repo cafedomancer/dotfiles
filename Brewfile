@@ -4,31 +4,32 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "thoughtbot/formulae"
 
-brew "ctags", args: ["force-bottle"]
-brew "fd", args: ["force-bottle"]
-brew "fish", args: ["force-bottle"]
-brew "fzf", args: ["force-bottle"]
-brew "ghq", args: ["force-bottle"]
-brew "git", args: ["force-bottle"]
-brew "git-lfs", args: ["force-bottle"]
-brew "gnupg", args: ["force-bottle"]
-brew "graphviz", args: ["force-bottle"]
-brew "heroku", args: ["force-bottle"]
-brew "hub", args: ["force-bottle"]
-brew "imagemagick", args: ["force-bottle"]
-brew "mas", args: ["force-bottle"]
-brew "neovim", args: ["force-bottle"]
-brew "nkf", args: ["force-bottle"]
-brew "nodenv", args: ["force-bottle"]
-brew "phantomjs", args: ["force-bottle"]
-brew "postgresql", args: ["force-bottle"]
-brew "rbenv", args: ["force-bottle"]
-brew "rbenv-default-gems", args: ["force-bottle"]
-brew "the_silver_searcher", args: ["force-bottle"]
-brew "tree", args: ["force-bottle"]
-brew "wget", args: ["force-bottle"]
-brew "yarn", args: ["force-bottle"]
-brew "thoughtbot/formulae/rcm", args: ["force-bottle"]
+brew "ctags"
+brew "fd"
+brew "fish"
+brew "fzf"
+brew "ghq"
+brew "git"
+brew "git-lfs"
+brew "gnupg"
+brew "graphviz"
+brew "heroku"
+brew "hub"
+brew "imagemagick"
+brew "mas"
+brew "neovim"
+brew "nkf"
+brew "nodenv"
+brew "phantomjs"
+brew "postgresql"
+brew "rbenv"
+brew "rbenv-default-gems"
+brew "rmtrash"
+brew "the_silver_searcher"
+brew "tree"
+brew "wget"
+brew "yarn"
+brew "thoughtbot/formulae/rcm"
 
 cask "chromium"
 cask "docker"
