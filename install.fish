@@ -17,7 +17,7 @@ set -Ux RUBY_CONFIGURE_OPTS '--with-readline-dir=/usr/local/opt/readline'
 
 abbr -a brews 'brew list -1'
 abbr -a bubo 'brew update; and brew outdated'
-abbr -a bubc 'brew upgrade --force-bottle; and brew cleanup'
+abbr -a bubc 'brew upgrade; and brew cleanup'
 abbr -a bubu 'brew update; and brew outdated; and brew upgrade; and brew cleanup'
 
 abbr -a be 'bundle exec'
@@ -39,7 +39,7 @@ abbr -a rd 'rmdir'
 
 abbr -a rm 'rmtrash'
 
-cp -r $HOME/Dropbox/aws $$HOME/.aws
+cp -r $HOME/Dropbox/aws $HOME/.aws
 cp -r $HOME/Dropbox/gnupg $HOME/.gnupg
 cp -r $HOME/Dropbox/ssh $HOME/.ssh
 
