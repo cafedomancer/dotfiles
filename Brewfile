@@ -21,14 +21,17 @@ brew "neovim"
 brew "nkf"
 brew "nodenv"
 brew "phantomjs"
+brew "postgis"
 brew "postgresql"
 brew "rbenv"
 brew "rbenv-default-gems"
+brew "redis"
 brew "rmtrash"
 brew "the_silver_searcher"
 brew "tree"
 brew "wget"
 brew "yarn"
+
 brew "thoughtbot/formulae/rcm"
 
 cask "chromium"
@@ -39,7 +42,6 @@ cask "haptic-touch-bar"
 cask "zoomus"
 
 mas "1Password 7", id: 1333542190
-mas "Ka-Block!", id: 1335413823
 mas "Keynote", id: 409183694
 mas "Magnet", id: 441258766
 mas "Numbers", id: 409203825

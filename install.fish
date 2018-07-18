@@ -39,6 +39,15 @@ abbr -a rd 'rmdir'
 
 abbr -a rm 'rmtrash'
 
+abbr -a rc 'bin/rails console'
+abbr -a rdc 'bin/rails db:create'
+abbr -a rdm 'bin/rails db:migrate'
+abbr -a rds 'bin/rails db:seed'
+abbr -a rg 'bin/rails generate'
+abbr -a rr 'bin/rails routes'
+abbr -a rs 'bin/rails server'
+abbr -a ru 'bin/rails runner'
+
 cp -r $HOME/Dropbox/aws $HOME/.aws
 cp -r $HOME/Dropbox/gnupg $HOME/.gnupg
 cp -r $HOME/Dropbox/ssh $HOME/.ssh
