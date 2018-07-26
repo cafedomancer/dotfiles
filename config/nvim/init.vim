@@ -2,6 +2,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 Plug '/usr/local/opt/fzf'
 Plug 'Yggdroot/indentLine'
 Plug 'airblade/vim-gitgutter'
+Plug 'chriskempson/base16-vim'
 Plug 'ervandew/supertab'
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/vim-easy-align'
