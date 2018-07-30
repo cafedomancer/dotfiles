@@ -42,7 +42,9 @@ cask "dropbox"
 cask "firefox"
 cask "google-japanese-ime"
 cask "haptic-touch-bar"
+cask "iterm2"
 cask "karabiner-elements"
+cask "silverlight"
 cask "zoomus"
 
 mas "1Password 7", id: 1333542190

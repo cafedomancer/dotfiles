@@ -38,6 +38,7 @@ set signcolumn=yes
 set smartcase
 set splitbelow
 set splitright
+set termguicolors
 set updatetime=100
 set wildmode=longest,full
 

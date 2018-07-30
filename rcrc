@@ -1,2 +1,2 @@
 DOTFILES_DIRS="$HOME/.ghq/github.com/cafedomancer/dotfiles"
-EXCLUDES="Base16.terminal"
+EXCLUDES="install.fish"
