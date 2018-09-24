@@ -9,7 +9,6 @@ set -Ux EDITOR 'nvim'
 set -Ux FZF_DEFAULT_COMMAND 'fd --type f --hidden --follow --exclude .git'
 set -Ux FZF_DEFAULT_OPTS '--height 40%'
 set -Ux FZF_LEGACY_KEYBINDINGS '0'
-set -Ux FZF_TMUX_HEIGHT '40%'
 set -Ux HOMEBREW_NO_ANALYTICS '1'
 set -Ux HOMEBREW_NO_ANALYTICS '1'
 set -Ux LANG 'en_US.UTF-8'
@@ -22,6 +21,8 @@ abbr -a bubu 'brew update; and brew outdated; and brew upgrade; and brew cleanup
 
 abbr -a be 'bundle exec'
 abbr -a bi 'bundle install'
+
+abbr -a fs 'foreman start'
 
 abbr -a ga  'git add'
 abbr -a gb  'git branch'

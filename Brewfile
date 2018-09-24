@@ -4,6 +4,7 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "thoughtbot/formulae"
 
+brew "awscli"
 brew "ctags"
 brew "fd"
 brew "fish"
@@ -37,9 +38,13 @@ brew "yarn"
 brew "thoughtbot/formulae/rcm"
 
 cask "chromium"
+cask "cyberduck"
 cask "docker"
 cask "dropbox"
 cask "firefox"
+cask "flash-npapi"
+cask "flash-ppapi"
+cask "google-cloud-sdk"
 cask "google-japanese-ime"
 cask "haptic-touch-bar"
 cask "iterm2"
@@ -48,6 +53,7 @@ cask "silverlight"
 cask "zoomus"
 
 mas "1Password 7", id: 1333542190
+mas "Display Menu", id: 549083868
 mas "Keynote", id: 409183694
 mas "Magnet", id: 441258766
 mas "Numbers", id: 409203825

@@ -7,5 +7,5 @@ function fish_right_prompt --description 'Write out the prompt'
         set -g __fish_prompt_red (set_color red)
     end
 
-    echo -n -s "$__fish_prompt_red" (__fish_rbenv_prompt) "$__fish_prompt_normal"
+    echo -n -s "$__fish_prompt_red" (__fish_rbenv_prompt) (__fish_nodenv_prompt) "$__fish_prompt_normal"
 end
