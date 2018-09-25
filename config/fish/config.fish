@@ -1,2 +1,1 @@
-alias git 'hub'
-alias tree 'tree -C'
+source /usr/local/opt/asdf/asdf.fish

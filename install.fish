@@ -12,7 +12,6 @@ set -Ux FZF_LEGACY_KEYBINDINGS '0'
 set -Ux HOMEBREW_NO_ANALYTICS '1'
 set -Ux HOMEBREW_NO_ANALYTICS '1'
 set -Ux LANG 'en_US.UTF-8'
-set -Ux RUBY_CONFIGURE_OPTS '--with-readline-dir=/usr/local/opt/readline'
 
 abbr -a brews 'brew list -1'
 abbr -a bubo 'brew update; and brew outdated'
