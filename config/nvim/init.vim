@@ -6,6 +6,7 @@ Plug 'chriskempson/base16-vim'
 Plug 'ervandew/supertab'
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/vim-easy-align'
+Plug 'lifepillar/pgsql.vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-endwise'
@@ -68,6 +69,9 @@ nnoremap <silent> q/ :History/<CR>
 " junegunn/vim-easy-align
 xmap ga <Plug>(EasyAlign)
 nmap ga <Plug>(EasyAlign)
+
+" lifepillar/pgsql.vim
+let g:sql_type_default = 'pgsql'
 
 " w0rp/ale
 let g:ale_fixers         = {'javascript': ['prettier']}

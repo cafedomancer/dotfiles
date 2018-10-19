@@ -48,6 +48,7 @@ abbr -a ru  'bin/rails runner'
 abbr -a rs  'bin/rails server'
 
 abbr -a rdc 'bin/rails db:create'
+abbr -a rdd 'bin/rails db:drop'
 abbr -a rdm 'bin/rails db:migrate'
 abbr -a rdr 'bin/rails db:rollback'
 abbr -a rds 'bin/rails db:seed'

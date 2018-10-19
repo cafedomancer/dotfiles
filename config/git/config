@@ -2,6 +2,7 @@
 	gpgsign = true
 [core]
 	editor = nvim
+	quotepath = off
 [credential]
 	helper = osxkeychain
 [fetch]
