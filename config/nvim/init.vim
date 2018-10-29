@@ -1,4 +1,6 @@
+" plugins
 call plug#begin('~/.local/share/nvim/plugged')
+
 Plug '/usr/local/opt/fzf'
 Plug 'Yggdroot/indentLine'
 Plug 'airblade/vim-gitgutter'
@@ -19,13 +21,17 @@ Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-sleuth'
 Plug 'tpope/vim-surround'
 Plug 'w0rp/ale'
+
 call plug#end()
 
+" colorschema
 colorscheme base16-default-dark
 
+" mapleader
 let mapleader      = ' '
 let maplocalleader = ' '
 
+" options
 set breakindent
 set ignorecase
 set iskeyword+=-
@@ -43,6 +49,7 @@ set termguicolors
 set updatetime=100
 set wildmode=longest,full
 
+" mappings
 noremap n nzz
 noremap N Nzz
 
@@ -63,8 +70,8 @@ nnoremap <silent> <Leader>ag       :Ag <C-R><C-W><CR>
 nnoremap <silent> <Leader>AG       :Ag <C-R><C-A><CR>
 xnoremap <silent> <Leader>ag       y:Ag <C-R>"<CR>
 nnoremap <silent> <Leader>`        :Marks<CR>
-nnoremap <silent> q: :History:<CR>
-nnoremap <silent> q/ :History/<CR>
+nnoremap <silent> q:               :History:<CR>
+nnoremap <silent> q/               :History/<CR>
 
 " junegunn/vim-easy-align
 xmap ga <Plug>(EasyAlign)
