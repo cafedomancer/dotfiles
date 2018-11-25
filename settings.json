@@ -1,4 +1,9 @@
 {
     "workbench.colorTheme": "Base16 Default Dark",
-    "keyboard.dispatch": "keyCode"
+    "keyboard.dispatch": "keyCode",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "SF Mono, Menlo, Monaco, 'Courier New', monospace",
+    "files.trimTrailingWhitespace": true
 }
