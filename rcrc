@@ -1,3 +1,0 @@
-DOTFILES_DIRS="$HOME/.ghq/github.com/cafedomancer/dotfiles"
-EXCLUDES="install.fish"
-UNDOTTED="install.fish"

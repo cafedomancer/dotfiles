@@ -1,53 +1,48 @@
-tap 'heroku/brew'
-tap 'homebrew/bundle'
-tap 'homebrew/cask'
-tap 'homebrew/core'
-tap 'homebrew/services'
-tap 'thoughtbot/formulae'
-
-brew 'awscli'
-brew 'ctags'
-brew 'fd'
-brew 'fish'
-brew 'fzf'
-brew 'ghq'
-brew 'git'
-brew 'git-lfs'
-brew 'gnupg'
-brew 'graphviz'
-brew 'hub'
-brew 'imagemagick'
-brew 'jq'
-brew 'mas'
-brew 'mysql',      restart_service: true
-brew 'neovim'
-brew 'nkf'
-brew 'postgresql', restart_service: true
-brew 'postgis'
-brew 'redis',      restart_service: true
-brew 'ripgrep'
-brew 'tree'
-brew 'wget'
-brew 'yarn'
-brew 'heroku/brew/heroku'
-brew 'thoughtbot/formulae/rcm'
-cask 'chromedriver'
-cask 'cyberduck'
-cask 'docker'
-cask 'dropbox'
-cask 'firefox'
-cask 'google-chrome'
-cask 'google-cloud-sdk'
-cask 'google-japanese-ime'
-cask 'haptic-touch-bar'
-cask 'iterm2'
-cask 'karabiner-elements'
-cask 'visual-studio-code'
-cask 'zoomus'
-
-mas '1Password 7',  id: 1333542190
-mas 'Display Menu', id: 549083868
-mas 'Keynote',      id: 409183694
-mas 'Magnet',       id: 441258766
-mas 'Numbers',      id: 409203825
-mas 'Pages',        id: 409201541
+tap "heroku/brew"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "thoughtbot/formulae"
+brew "automake"
+brew "coreutils"
+brew "ctags"
+brew "fish"
+brew "ghq"
+brew "git"
+brew "git-lfs"
+brew "gnupg"
+brew "hub"
+brew "jq"
+brew "libtool"
+brew "openssl"
+brew "readline"
+brew "libxslt"
+brew "libyaml"
+brew "mas"
+brew "neovim"
+brew "tree"
+brew "unixodbc"
+brew "wget"
+brew "yarn"
+brew "heroku/brew/heroku"
+brew "thoughtbot/formulae/rcm"
+cask "chromedriver"
+cask "docker"
+cask "dropbox"
+cask "firefox"
+cask "flash-npapi"
+cask "flash-ppapi"
+cask "google-chrome"
+cask "google-cloud-sdk"
+cask "google-japanese-ime"
+cask "haptic-touch-bar"
+cask "iterm2"
+cask "karabiner-elements"
+cask "visual-studio-code"
+cask "zoomus"
+mas "1Password 7", id: 1333542190
+mas "Display Menu", id: 549083868
+mas "Keynote", id: 409183694
+mas "Magnet", id: 441258766
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
