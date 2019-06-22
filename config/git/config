@@ -1,8 +1,13 @@
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
 [commit]
 	gpgsign = true
 [core]
 	editor = nvim
-	quotepath = off
+	quotepath = false
 [credential]
 	helper = osxkeychain
 [fetch]

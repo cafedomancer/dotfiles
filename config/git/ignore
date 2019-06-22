@@ -1,4 +1,6 @@
 .DS_Store
 .byebug_history
+.sass-cache
 .tool-versions
+node_modules
 tags
