@@ -1,11 +1,7 @@
 set -gx EDITOR nvim
 set -gx LANG en_US.UTF-8
 
-source (brew --prefix asdf)/asdf.fish
-
 if status --is-interactive
-    abbr -ag cd 'z'
-
     abbr -ag ls 'exa'
     abbr -ag ll 'exa -l'
     abbr -ag la 'exa -al'
@@ -68,3 +64,5 @@ if status --is-interactive
     abbr -ag rdd 'bin/rake db:drop'
     abbr -ag rr 'bin/rake routes'
 end
+
+source (brew --prefix asdf)/asdf.fish
