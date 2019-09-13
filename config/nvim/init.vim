@@ -16,7 +16,6 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rails'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-sleuth'
-Plug 'sheerun/vim-polyglot'
 
 call plug#end()
 
