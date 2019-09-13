@@ -3,4 +3,5 @@
 .sass-cache
 .tool-versions
 node_modules
+script.*
 tags
