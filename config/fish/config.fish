@@ -2,13 +2,18 @@ set -gx EDITOR nvim
 set -gx LANG en_US.UTF-8
 
 if status --is-interactive
+    set BASE16_SHELL "$HOME/.config/base16-shell/"
+    source "$BASE16_SHELL/profile_helper.fish"
+end
+
+if status --is-interactive
     abbr -ag ls 'exa'
     abbr -ag ll 'exa -l'
     abbr -ag la 'exa -al'
 
     abbr -ag curl 'http'
     abbr -ag find 'fd'
-    abbr -ag grep 'command rg'
+    abbr -ag grep 'command rg --sort path'
     abbr -ag tree 'exa -T'
 
     abbr -ag ag 'command rg'
@@ -24,7 +29,7 @@ if status --is-interactive
     abbr -ag dcps 'docker-compose ps'
     abbr -ag dcrestart 'docker-compose restart'
     abbr -ag dcrm 'docker-compose rm'
-    abbr -ag dcr 'docker-compose run'
+    abbr -ag dcr 'docker-compose run --rm'
     abbr -ag dcstop 'docker-compose stop'
     abbr -ag dcup 'docker-compose up'
     abbr -ag dcupd 'docker-compose up -d'

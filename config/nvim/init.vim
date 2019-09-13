@@ -7,23 +7,34 @@ Plug 'chriskempson/base16-vim'
 Plug 'ervandew/supertab'
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/vim-easy-align'
+Plug 'leafgarland/typescript-vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
+Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rails'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-sleuth'
+Plug 'sheerun/vim-polyglot'
 
 call plug#end()
 
-colorscheme base16-default-dark
+if filereadable(expand("~/.vimrc_background"))
+  let base16colorspace=256
+  source ~/.vimrc_background
+endif
 
+let &showbreak = '> '
+
+set breakindent
 set cursorline
 set lazyredraw
+set linebreak
 set list
 set splitbelow
 set splitright
+set termguicolors
 
 set nobackup
 set noswapfile
