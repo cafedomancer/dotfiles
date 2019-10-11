@@ -1,5 +1,3 @@
 package fzf
-package osx
-package thefuck
 package z
 theme default
