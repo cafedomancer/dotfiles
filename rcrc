@@ -1,2 +1,2 @@
 DOTFILES_DIRS="$HOME/.ghq/github.com/cafedomancer/dotfiles"
-EXCLUDES="README.md Default.json"
+EXCLUDES="Default.json README.md devdocs.json"
