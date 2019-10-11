@@ -1,5 +1,7 @@
-set -gx EDITOR nvim
 set -gx LANG en_US.UTF-8
+
+set -gx EDITOR nvim
+set -gx VISUAL nvim
 
 source (brew --prefix asdf)/asdf.fish
 
@@ -60,7 +62,6 @@ if status --is-interactive
     abbr -ag rr 'bin/rake routes'
 
     abbr -ag grep 'ripgrep'
-
     abbr -ag vim 'nvim'
 end
 
