@@ -1,4 +1,5 @@
 set -gx LANG en_US.UTF-8
+set -gx RIPGREP_CONFIG_PATH "$HOME/.ripgreprc"
 
 set -gx EDITOR nvim
 set -gx VISUAL nvim
