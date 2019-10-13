@@ -1,3 +1,6 @@
 bundler
-pry
 gem-ctags
+pry
+rails
+rubocop
+solargraph
