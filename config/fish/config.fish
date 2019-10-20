@@ -73,5 +73,5 @@ if status --is-interactive
 
     alias ripgrep 'command rg'
 
-    alias tree 'exa -tree'
+    alias tree 'exa --tree'
 end
