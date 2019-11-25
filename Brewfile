@@ -63,3 +63,4 @@ mas "1Password 7", id: 1333542190
 mas "Display Menu", id: 549083868
 mas "LG Screen Manager", id: 1142051783
 mas "Magnet", id: 441258766
+mas "Xcode", id:497799835
