@@ -12,6 +12,8 @@
 	process = git-lfs filter-process
 	required = true
 	smudge = git-lfs smudge -- %f
+[ghq]
+	root = ~/.ghq
 [hub]
 	protocol = https
 [pull]
