@@ -32,6 +32,9 @@ if status --is-interactive
     abbr -ag dcpull 'docker-compose pull'
     abbr -ag dcstart 'docker-compose start'
 
+    abbr -ag fr 'foreman run'
+    abbr -ag fs 'foreman start'
+
     abbr -ag ga 'git add'
     abbr -ag gb 'git branch'
     abbr -ag gc 'git commit'
@@ -46,6 +49,8 @@ if status --is-interactive
     abbr -ag gst 'git status'
     abbr -ag gsw 'git switch'
     abbr -ag gswc 'git switch -c'
+
+    abbr -ag md 'mkdir'
 
     abbr -ag rc 'bin/rails console'
     abbr -ag rd 'bin/rails destroy'
@@ -70,6 +75,8 @@ if status --is-interactive
 end
 
 if status --is-interactive
+    alias git 'hub'
+
     alias ls 'exa'
     alias ll 'exa --long'
     alias la 'exa -all --long'

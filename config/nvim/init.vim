@@ -4,7 +4,6 @@ Plug '/usr/local/opt/fzf'
 Plug '907th/vim-auto-save'
 Plug 'ConradIrwin/vim-bracketed-paste'
 Plug 'chriskempson/base16-vim'
-Plug 'dense-analysis/ale'
 Plug 'ervandew/supertab'
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/vim-easy-align'
@@ -49,10 +48,6 @@ if filereadable(expand("~/.vimrc_background"))
   source ~/.vimrc_background
 endif
 
-" dense-analysis/ale
-let g:ale_set_highlights = 0
-let g:ale_set_signs      = 0
-
 " ervandew/supertab
 let g:SuperTabDefaultCompletionType = "<C-N>"
 
@@ -61,7 +56,28 @@ nnoremap <silent> <Leader><Leader> :Files<CR>
 nnoremap <silent> <Leader>C        :Colors<CR>
 nnoremap <silent> <Leader><Enter>  :Buffers<CR>
 nnoremap <silent> <Leader>L        :Lines<CR>
+nnoremap <silent> <Leader>rg       :Rg <C-R><C-W><CR>
+
+nmap <leader><tab> <plug>(fzf-maps-n)
+xmap <leader><tab> <plug>(fzf-maps-x)
+omap <leader><tab> <plug>(fzf-maps-o)
+
+imap <c-x><c-k> <plug>(fzf-complete-word)
+imap <c-x><c-f> <plug>(fzf-complete-path)
+imap <c-x><c-j> <plug>(fzf-complete-file-ag)
+imap <c-x><c-l> <plug>(fzf-complete-line)
 
 " junegunn/vim-easy-align
 nmap ga <Plug>(EasyAlign)
 xmap ga <Plug>(EasyAlign)
+
+" neoclide/coc.nvim
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
+
+nmap <leader>rn <Plug>(coc-rename)
+
+xmap <leader>f  <Plug>(coc-format-selected)
+nmap <leader>f  <Plug>(coc-format-selected)
