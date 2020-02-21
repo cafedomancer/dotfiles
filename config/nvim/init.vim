@@ -3,17 +3,19 @@ call plug#begin(stdpath('data') . '/plugged')
 Plug '/usr/local/opt/fzf'
 Plug '907th/vim-auto-save'
 Plug 'ConradIrwin/vim-bracketed-paste'
+Plug 'HerringtonDarkholme/yats.vim'
 Plug 'chriskempson/base16-vim'
+Plug 'dag/vim-fish', { 'for': 'fish' }
 Plug 'ervandew/supertab'
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/vim-easy-align'
+Plug 'leafgarland/typescript-vim'
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
-Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-commentary'
-Plug 'tpope/vim-endwise'
+Plug 'tpope/vim-endwise', { 'for': 'ruby' }
 Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-rails'
+Plug 'tpope/vim-rails', { 'for': 'ruby' }
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-sleuth'
 Plug 'vim-airline/vim-airline'
