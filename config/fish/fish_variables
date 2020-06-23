@@ -1,15 +1,17 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
-SETUVAR EDITOR:nvim
-SETUVAR FZF_DEFAULT_COMMAND:fd\x20\x2d\x2dtype\x20f\x20\x2d\x2dhidden\x20\x2d\x2dfollow\x20\x2d\x2dexclude\x20\x2egit
-SETUVAR FZF_DEFAULT_OPTS:\x2d\x2dheight\x2040\x25
-SETUVAR FZF_LEGACY_KEYBINDINGS:1
-SETUVAR FZF_PREVIEW_DIR_CMD:ls
-SETUVAR FZF_PREVIEW_FILE_CMD:head\x20\x2dn\x2010
-SETUVAR FZF_TMUX_HEIGHT:40\x25
-SETUVAR LANG:en_US\x2eUTF\x2d8
-SETUVAR RIPGREP_CONFIG_PATH:/Users/business/\x2eripgreprc
-SETUVAR VISUAL:nvim
+SETUVAR --export EDITOR:nvim
+SETUVAR --export FZF_DEFAULT_COMMAND:fd\x20\x2d\x2dtype\x20f\x20\x2d\x2dhidden\x20\x2d\x2dfollow\x20\x2d\x2dexclude\x20\x2egit
+SETUVAR --export FZF_DEFAULT_OPTS:\x2d\x2dheight\x2040\x25
+SETUVAR --export FZF_LEGACY_KEYBINDINGS:1
+SETUVAR --export FZF_PREVIEW_DIR_CMD:ls
+SETUVAR --export FZF_PREVIEW_FILE_CMD:head\x20\x2dn\x2010
+SETUVAR --export FZF_TMUX_HEIGHT:40\x25
+SETUVAR --export --path GOPATH:/Users/business/\x2ego
+SETUVAR --export LANG:en_US\x2eUTF\x2d8
+SETUVAR --path PATH:\x1d
+SETUVAR --export RIPGREP_CONFIG_PATH:/Users/business/\x2eripgreprc
+SETUVAR --export VISUAL:nvim
 SETUVAR __fish_initialized:3100
 SETUVAR _fish_abbr_be:bundle\x20exec
 SETUVAR _fish_abbr_bi:bundle\x20install
