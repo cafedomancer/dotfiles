@@ -1,17 +1,11 @@
 [commit]
 	gpgsign = true
 [core]
-	editor = nvim
-	quotepath = false
+	editor = code --wait
 [credential]
 	helper = osxkeychain
 [fetch]
 	prune = true
-[filter "lfs"]
-	clean = git-lfs clean -- %f
-	process = git-lfs filter-process
-	required = true
-	smudge = git-lfs smudge -- %f
 [ghq]
 	root = ~/.ghq
 [pull]
