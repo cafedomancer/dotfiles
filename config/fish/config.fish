@@ -1,6 +1,18 @@
 source (brew --prefix asdf)/asdf.fish
 
 if status --is-interactive
+    # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew
+
+    abbr --add --global brewp 'brew pin'
+    abbr --add --global brews 'brew list -1'
+    abbr --add --global brewsp 'brew list --pinned'
+    abbr --add --global bubo 'brew update && brew outdated'
+    abbr --add --global bubc 'brew upgrade && brew cleanup'
+    abbr --add --global bubu 'bubo && bubc'
+    abbr --add --global buf 'brew upgrade --formula'
+    abbr --add --global bcubo 'brew update && brew outdated --cask'
+    abbr --add --global bcubc 'brew cask reinstall $(brew outdated --cask) && brew cleanup'
+
     # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/bundler
 
     abbr --add --global ba 'bundle add'
@@ -242,6 +254,23 @@ if status --is-interactive
     abbr --add --global RED 'env RAILS_ENV=development'
     abbr --add --global REP 'env RAILS_ENV=production'
     abbr --add --global RET 'env RAILS_ENV=test'
+
+    # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/vscode
+
+    abbr --add --global vsc 'code .'
+    abbr --add --global vsca 'code --add'
+    abbr --add --global vscd 'code --diff'
+    abbr --add --global vscg 'code --goto'
+    abbr --add --global vscn 'code --new-window'
+    abbr --add --global vscr 'code --reuse-window'
+    abbr --add --global vscw 'code --wait'
+    abbr --add --global vscu 'code --user-data-dir'
+
+    abbr --add --global vsced 'code --extensions-dir'
+    abbr --add --global vscie 'code --install-extension'
+    abbr --add --global vscue 'code --uninstall-extension'
+
+    abbr --add --global vscv 'code --verbose'
+    abbr --add --global vscl 'code --log'
+    abbr --add --global vscde 'code --disable-extensions'
 end
-
-
