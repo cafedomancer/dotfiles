@@ -8,7 +8,7 @@ if status --is-interactive
     abbr --add --global brewsp 'brew list --pinned'
     abbr --add --global bubo 'brew update && brew outdated'
     abbr --add --global bubc 'brew upgrade && brew cleanup'
-    abbr --add --global bubu 'bubo && bubc'
+    abbr --add --global bubu 'brew update && brew outdated && brew upgrade && brew cleanup'
     abbr --add --global buf 'brew upgrade --formula'
     abbr --add --global bcubo 'brew update && brew outdated --cask'
     abbr --add --global bcubc 'brew cask reinstall $(brew outdated --cask) && brew cleanup'
