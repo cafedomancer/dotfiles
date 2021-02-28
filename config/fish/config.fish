@@ -1,3 +1,5 @@
+set -g fish_user_paths "$HOME/.homebrew/bin" $fish_user_paths
+
 source (brew --prefix asdf)/asdf.fish
 
 if status --is-interactive
