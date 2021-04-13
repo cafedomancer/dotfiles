@@ -1,5 +1,8 @@
-set -g fish_user_paths "$HOME/.homebrew/bin" $fish_user_paths
-set -g fish_user_paths "$HOME/.homebrew/sbin" $fish_user_paths
+set -g fish_user_paths $HOME/.homebrew/bin $fish_user_paths
+set -g fish_user_paths $HOME/.homebrew/sbin $fish_user_paths
+
+set -gx GOPATH $HOME/.go
+set -g fish_user_paths $GOPATH/bin $fish_user_paths
 
 source (brew --prefix asdf)/asdf.fish
 
