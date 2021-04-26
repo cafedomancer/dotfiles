@@ -2,6 +2,7 @@
 	gpgsign = true
 [core]
 	editor = code --wait
+	quotepath = false
 [credential]
 	helper = osxkeychain
 [fetch]
