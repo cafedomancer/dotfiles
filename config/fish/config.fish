@@ -1,5 +1,6 @@
 set -g fish_user_paths $HOME/.homebrew/bin $fish_user_paths
 set -g fish_user_paths $HOME/.homebrew/sbin $fish_user_paths
+set -g fish_user_paths (brew --prefix node@14)/bin $fish_user_paths
 
 set -gx GOPATH $HOME/.go
 set -g fish_user_paths $GOPATH/bin $fish_user_paths

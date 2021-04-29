@@ -20,6 +20,7 @@ brew "mas"
 brew "mkcert"
 brew "nkf"
 brew "node"
+brew "node@14"
 brew "openjdk"
 brew "postgresql", restart_service: true
 brew "rcm"
