@@ -1,11 +1,5 @@
 AllCops:
   NewCops: enable
 
-Layout/LineLength:
-  Enabled: false
-
 Metrics:
   Enabled: false
-
-Style/BlockDelimiters:
-  EnforcedStyle: semantic

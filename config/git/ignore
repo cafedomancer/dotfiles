@@ -1,8 +1,1 @@
-.DS_Store
-.byebug_history
-.env
-.sass-cache
 .tool-versions
-node_modules
-script.*
-tags

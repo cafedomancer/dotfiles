@@ -1,11 +1,6 @@
-set -g fish_user_paths (brew --prefix node@14)/bin $fish_user_paths
-
-set -gx GOPATH $HOME/.go
-set -g fish_user_paths $GOPATH/bin $fish_user_paths
-
 source (brew --prefix asdf)/asdf.fish
 
-if status --is-interactive
+if status is-interactive
     # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew
 
     abbr --add --global brewp 'brew pin'
