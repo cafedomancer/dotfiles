@@ -1,6 +1,6 @@
-source (brew --prefix asdf)/asdf.fish
-
+source (brew --prefix asdf)/libexec/asdf.fish
 direnv hook fish | source
+starship init fish | source
 
 if status is-interactive
     # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew
