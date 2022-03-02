@@ -1,5 +1,7 @@
 source (brew --prefix asdf)/asdf.fish
 
+direnv hook fish | source
+
 if status is-interactive
     # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew
 
@@ -213,6 +215,26 @@ if status is-interactive
     abbr --add --global gams 'git am --skip'
     abbr --add --global gama 'git am --abort'
     abbr --add --global gamscp 'git am --show-current-patch'
+
+    # https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/npm/npm.plugin.zsh
+
+    abbr --add --global npmg 'npm i -g'
+    abbr --add --global npmS 'npm i -S'
+    abbr --add --global npmD 'npm i -D'
+    abbr --add --global npmF 'npm i -f'
+    abbr --add --global npmE 'PATH "$(npm bin)":"$PATH"'
+    abbr --add --global npmO 'npm outdated'
+    abbr --add --global npmU 'npm update'
+    abbr --add --global npmV 'npm -v'
+    abbr --add --global npmL 'npm list'
+    abbr --add --global npmL0 'npm ls --depth 0'
+    abbr --add --global npmst 'npm start'
+    abbr --add --global npmt 'npm test'
+    abbr --add --global npmR 'npm run'
+    abbr --add --global npmP 'npm publish'
+    abbr --add --global npmI 'npm init'
+    abbr --add --global npmi 'npm info'
+    abbr --add --global npmSe 'npm search'
 
     # https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/rails
 
