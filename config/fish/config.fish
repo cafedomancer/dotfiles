@@ -3,6 +3,8 @@ direnv hook fish | source
 starship init fish | source
 
 if status is-interactive
+    abbr --add --global vim 'nvim'
+
     # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew
 
     abbr --add --global brewp 'brew pin'

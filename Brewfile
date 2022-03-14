@@ -11,10 +11,11 @@ brew "fish"
 brew "ghq"
 brew "gnutls"
 brew "gnupg"
-brew "h2o"
+brew "h2o", restart_service: true
 brew "harfbuzz"
 brew "imagemagick"
 brew "mkcert"
+brew "neovim"
 brew "postgresql", restart_service: true
 brew "postgis"
 brew "rcm"
