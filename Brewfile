@@ -22,6 +22,8 @@ brew "rcm"
 brew "redis", restart_service: true
 brew "starship"
 brew "swift-format"
+brew "tree"
+brew "vercel-cli"
 brew "vips"
 brew "wget"
 brew "heroku/brew/heroku"
