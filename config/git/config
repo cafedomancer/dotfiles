@@ -1,6 +1,7 @@
 [commit]
 	gpgsign = true
 [core]
+	editor = nvim
 	quotepath = false
 [credential]
 	helper = osxkeychain
