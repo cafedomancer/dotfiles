@@ -1,6 +1,7 @@
-source (brew --prefix asdf)/libexec/asdf.fish
+eval "$(/opt/homebrew/bin/brew shellenv)"
 direnv hook fish | source
 starship init fish | source
+source /opt/homebrew/opt/asdf/libexec/asdf.fish
 
 if status is-interactive
     abbr --add --global vim 'nvim'
