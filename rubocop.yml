@@ -7,6 +7,12 @@ Layout/LineLength:
 Metrics:
   Enabled: false
 
+Naming/HeredocDelimiterNaming:
+  Enabled: false
+
+Style/BlockDelimiters:
+  Enabled: false
+
 Style/Documentation:
   Enabled: false
 
