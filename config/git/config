@@ -9,6 +9,8 @@
 	prune = true
 [ghq]
 	root = ~/.ghq
+[gpg]
+	program = /opt/homebrew/bin/gpg
 [init]
 	defaultBranch = main
 [pull]
