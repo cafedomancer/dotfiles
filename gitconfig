@@ -2,6 +2,7 @@
 	gpgsign = true
 [core]
 	editor = code --wait
+	excludesfile = ~/.gitignore_global
 	pager = LESSCHARSET=utf-8 less
 	quotepath = false
 [credential]

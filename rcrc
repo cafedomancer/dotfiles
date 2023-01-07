@@ -1,1 +1,1 @@
-DOTFILES_DIRS="$HOME/.ghq/github.com/cafedomancer/dotfiles"
+DOTFILES_DIRS=~/.ghq/github.com/cafedomancer/dotfiles
