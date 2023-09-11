@@ -1,20 +1,5 @@
 AllCops:
-  NewCops: enable
+  DisabledByDefault: true
 
-Layout/LineLength:
-  Enabled: false
-
-Metrics:
-  Enabled: false
-
-Naming/HeredocDelimiterNaming:
-  Enabled: false
-
-Style/BlockDelimiters:
-  Enabled: false
-
-Style/Documentation:
-  Enabled: false
-
-Style/FrozenStringLiteralComment:
-  Enabled: false
+Layout:
+  Enabled: true
