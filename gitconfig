@@ -7,6 +7,8 @@
 	quotepath = false
 [credential]
 	helper = osxkeychain
+[diff]
+	wsErrorHighlight = all
 [fetch]
 	prune = true
 [ghq]
