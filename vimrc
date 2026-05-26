@@ -1,0 +1,9 @@
+set number
+set expandtab
+set shiftwidth=2
+set tabstop=2
+set smartindent
+set ignorecase
+set smartcase
+set mouse=a
+set clipboard=unnamed
