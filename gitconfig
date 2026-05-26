@@ -1,25 +1,5 @@
-[commit]
-	gpgsign = true
-[core]
-	editor = nvim
-	excludesfile = ~/.gitignore_global
-	pager = LESSCHARSET=utf-8 less
-	quotepath = false
-[credential]
-	helper = osxkeychain
-[diff]
-	wsErrorHighlight = all
-[fetch]
-	prune = true
-[ghq]
-	root = ~/.ghq
-[gpg]
-	program = /opt/homebrew/bin/gpg
-[init]
-	defaultBranch = main
 [pull]
 	rebase = true
 [user]
 	email = cafedomancer@gmail.com
 	name = Shohei Umemoto
-	signingkey = 8A9EC0A679F1FBAC
